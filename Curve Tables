@@ -1,5 +1,8 @@
 TO USE THESE, GO TO YOUR LAWIN/MOMENTUM FILE, OPEN CLOUDSTORAGE, AND THEN RUN DefaultGame.ini AS A NOTEPAD FILE.
 
+BEFORE PUTTING ANY OF THESE, GO 4 LINES DOWN AND PASTE THIS: [AssetHotfix]
+THEN GO 1 MORE LINE DOWN AND PASTE ANY OF THESE
+
 Remove Mini Shield Cap: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ShieldSmallCap;0;100
 Modify Mini Shield Heal Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ShieldSmallAmount;0;100
 Modify Big Potion Heal Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ShieldPotion.ShieldHealAmount;0;100
