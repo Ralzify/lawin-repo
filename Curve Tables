@@ -11,6 +11,7 @@ Remove Bandage Cap: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;R
 Modify Bandage Heal Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Bandage.HealAmount;0;100
 Modify Impulse Momentum: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.KnockGrenade.LaunchVelocity;0;10000
 Modify Shockwave Momentum: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ShockwaveGrenade.LaunchVelocity;0;10000
+Modify Chiller Momentum: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.IceGrenade.LaunchVelocity;0;8000
 Modify Flint-Knock Momentum: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.PistolFlintlock.KnockMagSelf;0;8000
 Modify Launch Pad Momentum: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Launchpad.LaunchStrength;0;10000
 Modify Crash Pad Horizontal Launch: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.AppleSun.LaunchVelocity.HorizontalLaunch;0;20000
