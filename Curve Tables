@@ -1,7 +1,5 @@
 TO USE THESE, GO TO YOUR LAWIN/MOMENTUM FILE, OPEN CLOUDSTORAGE, AND THEN RUN DefaultGame.ini AS A NOTEPAD FILE.
 
-btw i dont test 100% of these so some may not work, if they dont dm me plz
-
 BEFORE PUTTING ANY OF THESE, GO 4 LINES DOWN AND PASTE THIS: [AssetHotfix]
 THEN GO 1 MORE LINE DOWN AND PASTE ANY OF THESE
 
@@ -38,6 +36,5 @@ Disable C2S5 Sand: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;Ro
 Glider Redeploy (0 for no, 1 for yes): +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GliderRedeploy.CanRedeploy;0;1
 Modify Glider Redeploy Speed: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ParachuteControlGliderRedeploy.MaxLateralSpeed;0;4000
 Modify Zipline Speed: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ZipLine.Speed;0;4000
-Allow Everyone to Edit Each Other's Walls: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;AllowNeutralEditing;1
-Infinite Balloon Distance (can keep going up) +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Balloons.PopBalloonsAtMaxHeight;0
-
+Allow Everyone to Edit Each Other's Walls: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;AllowNeutralEditing;0;1
+Infinite Balloon Distance (can keep going up): +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Balloons.PopBalloonsAtMaxHeight;0;0
