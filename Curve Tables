@@ -12,6 +12,7 @@ Remove Bandage Cap: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;R
 Modify Bandage Heal Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Bandage.HealAmount;0;100
 Modify Chug Splash Heal Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ChillBronco.MaxHeal;0;100
 Modify Chug Splash Gravity: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GravityScale.ChugSplash;0;0
+Modify Chug Splash Speed: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Projectile.Speed.ChugSplash;0;5000
 Modify Wood Stack Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.MaxStack.Resources.Wood;0;5000
 Modify Brick Stack Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.MaxStack.Resources.Stone;0;5000
 Modify Metal Stack Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.MaxStack.Resources.Metal;0;5000
