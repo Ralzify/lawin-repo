@@ -189,7 +189,7 @@ STRAIGHT BLOOM FOR ALL SNIPERS:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Weather_Athena_SR_Ore_T03;SpreadDownsightsAdditionalCooldownTime;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Heavy_Boom_Athena_SR_Ore_T03;SpreadDownsightsAdditionalCooldownTime;0
 
-DOUBLE PUMP:
+DOUBLE PUMP FOR ALL SHOTGUNS:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_C_Ore_T03;QuickBarSlotCooldownDuration;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_UC_Ore_T03;QuickBarSlotCooldownDuration;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_VR_Ore_T03;QuickBarSlotCooldownDuration;0
@@ -203,6 +203,30 @@ DOUBLE PUMP:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SlugFire_Athena_VR_Ore_T03;QuickBarSlotCooldownDuration;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Athena_SR_Ore_T03;QuickBarSlotCooldownDuration;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Athena_VR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_C_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_UC_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_R_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_VR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_SR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_UR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_C_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_UC_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_R_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_VR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_SR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_R_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_VR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_SR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_C_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_UC_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_R_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakBarrel_Dragon_Athena_VR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakBarrel_Dragon_Athena_SR_Ore_T03;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;WID_Shotgun_Heavy_Athena_C;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;WID_Shotgun_Heavy_Athena_UC;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;WID_Shotgun_Heavy_Athena_R;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;WID_Shotgun_Heavy_Athena_VR;QuickBarSlotCooldownDuration;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;WID_Shotgun_Heavy_Athena_SR;QuickBarSlotCooldownDuration;0
 
 AMMO CHANGES: (find rowname in fmodel by extracting the wid into a new tab)
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Special_BadgerGrape_Athena_SR_Ore_T03;ClipSize;20
@@ -244,21 +268,3 @@ CHANGE WEAPON ENVIRONMENT DAMAGE: (find rowname in fmodel by extracting the wid 
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_VR_Ore_T03;EnvDmgMaxRange;97
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_SuperRare_Ore_T03;EnvDmgMaxRange;116
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_VeryRare_Ore_T03;EnvDmgMaxRange;110
-
-Cans & Goldfish Damage:
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketOld;DmgPB;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketOld;DmgMid;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketOld;DmgLong;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketOld;DmgMaxRange;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketOld;EnvDmgPB;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketOld;EnvDmgMid;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketOld;EnvDmgLong;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketOld;EnvDmgMaxRange;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketNice;DmgPB;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketNice;DmgMid;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketNice;DmgLong;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketNice;DmgMaxRange;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketNice;EnvDmgPB;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketNice;EnvDmgMid;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketNice;EnvDmgLong;0
-+DataTable=/Game/Athena/Items/Weapons/UtilityItemDamage;RowUpdate;AthenaBucketNice;EnvDmgMaxRange;0
