@@ -294,3 +294,17 @@ DISABLE BOAT ROCKET DAMAGE:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Vehicle_Meatball_Launcher_Athena_R_Ore_T03;EnvDmgMid;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Vehicle_Meatball_Launcher_Athena_R_Ore_T03;EnvDmgLong;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Vehicle_Meatball_Launcher_Athena_R_Ore_T03;EnvDmgMaxRange;0
+
+FIX DEADPOOL HAND CANNONS DAMAGE:
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;DmgPB;43
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;DmgMid;36.55
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;DmgLong;32.25
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;DmgMaxRange;27.95
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;EnvDmgPB;43
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;EnvDmgMid;43
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;EnvDmgLong;43
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;EnvDmgMaxRange;43
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgPB;55.0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgMid;46.75
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgLong;41.25
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgMaxRange;35.75
