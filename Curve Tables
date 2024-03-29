@@ -46,6 +46,7 @@ Modify Stink Bomb Gravity: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGam
 Modify Cube Low Gravity: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Cube.Lowgrav;0;5
 Modify Cube Send Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Cube.Impulseamount;0;15000
 Modify Junk Rift's Speed: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Projectile.Speed.JunkRift;0;10000
+Modify Deadpool Dualies Heal Amount: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Donut.LifeStealMult;0;0.3
 Disable C2S5 Sand: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Sand.Enabled;0;0
 Glider Redeploy (0 for no, 1 for yes): +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GliderRedeploy.CanRedeploy;0;1
 Modify Glider Redeploy Speed: +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ParachuteControlGliderRedeploy.MaxLateralSpeed;0;4000
