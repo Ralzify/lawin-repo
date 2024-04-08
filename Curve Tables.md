@@ -21,13 +21,19 @@
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.PurpleStuff.EffectiveHealthPerTick;0;25
 
 - Remove Bandage Cap: 
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BandageCap;0;100
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Bandage.HealCap;0;1
 
 - Modify Bandage Heal Amount: 
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Bandage.HealAmount;0;100
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Bandage.HealAmount;0;25
 
 - Modify Chug Splash Heal Amount: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ChillBronco.MaxHeal;0;100
+
+- Modify Flopper Heal Amount:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Flopper.Heal;0;50
+
+- Modify Slurp Fish Heal Amount:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.FlopperEffective.Heal;0;50
 
 - Modify Deadpool Dualies Heal Amount: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Donut.LifeStealMult;0;0.3
@@ -43,6 +49,49 @@
 
 - Modify Metal Stack Amount: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.MaxStack.Resources.Metal;0;5000
+
+# Vehicles
+- Currently, they are all set to 0, meaning it will disable them if put in the backend. If you want to enable them on other seasons that may not have them, then change the second 0 to a 100.
+
+- Hoverboard Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.HoverBoard.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.HoverBoard.MaxSpawnPercent;0;0
+
+- Quadcrasher Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.QuadBike.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.QuadBike.MaxSpawnPercent;0;0
+
+- Shopping Cart Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ShoppingCart.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ShoppingCart.MaxSpawnPercent;0;0
+
+- ATK Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GolfCart.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GolfCart.MaxSpawnPercent;0;0
+
+- Plane Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BiPlane.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BiPlane.MaxSpawnPercent;0;0
+
+- Baller Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.HamsterBall.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.HamsterBall.MaxSpawnPercent;0;0
+
+- Cannon Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Cannon.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Cannon.MaxSpawnPercent;0;0
+
+- Boat Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Boat.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Boat.MaxSpawnPercent;0;0
+
+- Season 13 Cars Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Valet.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Valet.MaxSpawnPercent;0;0
+
+- Choppa Spawn Percent:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Choppa.MinSpawnPercent;0;0
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Choppa.MaxSpawnPercent;0;0
 
 # Consumable Send/Launch Distance, Momentum & Gravity
 
@@ -79,11 +128,17 @@
 - Modify Chug Splash Speed: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Projectile.Speed.ChugSplash;0;5000
 
-- Modify Bouncer (floor) Momentum: 
+- Modify Floor Bouncer Momentum: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BouncePad.Floor.Player.MaxVelocity;0;6000
 
-- Modify Bouncer (wall) Momentum: 
+- Modify Vehicle Floor Bouncer Momentum:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BouncePad.Floor.Vehicle.MaxLateralVelocity;0;6000
+
+- Modify Wall Bouncer Momentum: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BouncePad.Wall.Player.MaxLateralVelocity;0;6000
+
+- Modify Vehicle Wall Bouncer Momentum:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BouncePad.Wall.Vehicle.MaxLateralVelocity;0;6000
 
 - Modify Grappler Distance (how long it can last): 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.HookGun.ProjectileLifespan;0;50
@@ -122,13 +177,32 @@
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Cube.Impulseamount;0;15000
 
 - Modify Junk Rift's Speed: 
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Projectile.Speed.JunkRift;0;10000
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Projectile.Speed.JunkRift;0;6000
+
+- Modify Stink Bomb's Speed: 
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Projectile.Speed.StinkBomb;0;6000
 
 - Modify Glider Redeploy Speed: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ParachuteControlGliderRedeploy.MaxLateralSpeed;0;4000
 
 - Modify Zipline Speed: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ZipLine.Speed;0;4000
+
+- Modify Hop Flopper Low Gravity Duration:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.HopFlopper.Duration;0;999999999999
+
+- Modify Witch Broom Launch Amount:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.WitchBroom.VerticalLaunchMagnitude;0;8000
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.WitchBroom.HorizontalLaunchMagnitude;0;8000
+
+- Modify Grenade Launcher Gravity:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GrenadeLauncher.Projectile.Gravity;0;0.6
+
+- Modify Grenade Launcher Speed:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GrenadeLauncher.Projectile.Speed;0;6000
+
+- Modify Knee Sliding Maximum Speed/Velocity:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Sliding.MaxLateralSlidingSpeed;0;400
 
 # Game Settings
 
@@ -137,6 +211,9 @@
 
 - Disable C2S5 Sand: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Sand.Enabled;0;0
+
+- Disable Sliding:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Sliding.Enabled;0;0
 
 - Allow Everyone to Edit Each Other's Walls: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;AllowNeutralEditing;0;1
@@ -147,5 +224,58 @@
 - Disable Jules' Grappler Glider Redeploy: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GrapplingHoot.DisableGliderDeploy;0;1
 
+- Modify Stink Bomb Damage: (I swear this is a datatable thing but whatever)
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.StinkBomb.PlayerDamage;0;25
+
 - Modify Stink Bomb Duration: 
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GasGrenade.GasDuration;0;0
+
+- Modify Boogie Bomb Duration:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.DanceGrenade.Duration;0;100
+
+- Modify Rift-to-Go Active Duration:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Rift.Item.ActiveDuration;0;99999999999999
+
+- Enable/Disable Free Vending Machines:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.VendingMachine.ItemsAreFree;0;0
+
+- Disable Shockwave Box Exploiting (Shockwaves break player builds)
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ShockwaveGrenade.ShouldDestroyStructure;0;0
+
+- Disable Crashpad Box Exploiting (Crashpad break player builds)
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.AppleSun.EnvironmentDamage;0;0
+
+- Modify Boogie Bomb Stack Amount: (you can also change the BoogieBomb to be basically any consumable, ie: ShockwaveGrenade, Chugsplash, etc)
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Consumables.MaxStackAmount.BoogieBomb;0;4
+
+- Change Turbo Build Rate:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.TurboBuildInterval;0;0.002
+
+# Fixes
+
+- Fix Season 16+ Ammo Count Cap:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Ammo.MaxStackAmount.Shells;0;999
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Ammo.MaxStackAmount.Light;0;999
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Ammo.MaxStackAmount.Medium;0;999
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Ammo.MaxStackAmount.Heavy;0;999
+
+- Fix Gold Cap:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ResourceWadCap;0;10000
+
+# Extra
+
+- If someone can figure out how to use this to unvault an item, that would be insane.
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Item.Unvaulted;0;0?
+
+- (untested) Change the name of the running game task?
+
+[/Script/EngineSettings.GeneralProjectSettings]
+ProjectID=(A=-2011270876,B=1182903154,C=-965786730,D=-1399474123)
+ProjectName=Ralzify
+ProjectDisplayedTitle=NSLOCTEXT("", "FortniteMainWindowTitle", "Ralzify")
+ProjectVersion=1.0.0
+
+- Double Pump for everyone without using DataTables (NOTE: Put in DefaultEngine.ini)
+
+[ConsoleVariables]
+Weapon.TryToFireRestrictedByTypeCooldowns=0
