@@ -308,3 +308,6 @@ FIX DEADPOOL HAND CANNONS DAMAGE:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgMid;46.75
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgLong;41.25
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgMaxRange;35.75
+
+FIX SKYE'S GRAPPLE SHOOTING DELAY:
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Adventure_Special_HookGun_Athena_SR_Ore_T03;FiringRate;1.0
