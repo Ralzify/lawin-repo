@@ -1,0 +1,57 @@
+{
+    "//": "BR Item Shop Config",
+    "daily1": {
+        "itemGrants": [
+            "AthenaCharacter:CID_025_Athena_Commando_M"
+        ],
+        "price": 1200
+    },
+    "daily2": {
+        "itemGrants": [
+            "AthenaPickaxe:Pickaxe_ID_014_WinterCamo"
+        ],
+        "price": 500
+    },
+    "daily3": {
+        "itemGrants": [
+            "AthenaDance:EID_KEagle"
+        ],
+        "price": 500
+    },
+    "daily4": {
+        "itemGrants": [
+            "AthenaDance:EID_Wiggle"
+        ],
+        "price": 500
+    },
+    "daily5": {
+        "itemGrants": [
+            "AthenaCharacter:CID_135_Athena_Commando_F_Jailbird", "AthenaBackpack:BID_053_JailbirdMale"
+        ],
+        "price": 1500
+    },
+    "daily6": {
+        "itemGrants": [
+            "AthenaGlider:Glider_ID_011_JollyRoger"
+        ],
+        "price": 500
+    },
+    "featured1": {
+        "itemGrants": [
+            "AthenaCharacter:CID_029_Athena_Commando_F_Halloween"
+        ],
+        "price": 1500
+    },
+    "featured2": {
+        "itemGrants": [
+            "AthenaCharacter:CID_030_Athena_Commando_M_Halloween", "AthenaBackpack:BID_105_GhostPortal"
+        ],
+        "price": 1500
+    },
+    "featured3": {
+        "itemGrants": [
+            "AthenaPickaxe:HalloweenScythe"
+        ],
+        "price": 800
+    }
+}

@@ -279,3 +279,8 @@ ProjectVersion=1.0.0
 
 [ConsoleVariables]
 Weapon.TryToFireRestrictedByTypeCooldowns=0
+
+- Straight Bloom For All Guns: (NOTE: Put in DefaultEngine.ini)
+
+[/Script/FortniteGame.FortBaseWeaponStats]
+Spread=0

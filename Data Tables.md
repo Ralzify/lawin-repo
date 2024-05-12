@@ -1,9 +1,11 @@
-TO USE THESE, GO TO YOUR LAWIN/MOMENTUM FILE, OPEN CLOUDSTORAGE, AND THEN RUN DefaultGame.ini AS A NOTEPAD FILE.
+# How To Use:
+- Open your backend, find the "DefaultGame.ini" file, and run it as a text file.
+- Then, at the bottom of the file, make a new row (enter key the text down), and paste "[AssetHotfix]". 
+- Go one more row down, and paste any of the below datatables.
 
-BEFORE PUTTING ANY OF THESE, GO 4 LINES DOWN AND PASTE THIS: [AssetHotfix]
-THEN GO 1 MORE LINE DOWN AND PASTE ANY OF THESE
+# Data Tables
 
-STRAIGHT BLOOM FOR ALL SNIPERS:
+- STRAIGHT BLOOM FOR ALL SNIPERS:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_BoltAction_Scope_Athena_C_Ore_T03;Spread;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_BoltAction_Scope_Athena_UC_Ore_T03;Spread;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_BoltAction_Scope_Athena_R_Ore_T03;Spread;0
@@ -205,7 +207,7 @@ STRAIGHT BLOOM FOR ALL SNIPERS:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Weather_Athena_SR_Ore_T03;SpreadDownsightsAdditionalCooldownTime;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Heavy_Boom_Athena_SR_Ore_T03;SpreadDownsightsAdditionalCooldownTime;0
 
-DOUBLE PUMP FOR ALL SHOTGUNS:
+- DOUBLE PUMP FOR ALL SHOTGUNS:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_C_Ore_T03;QuickBarSlotCooldownDuration;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_UC_Ore_T03;QuickBarSlotCooldownDuration;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_VR_Ore_T03;QuickBarSlotCooldownDuration;0
@@ -244,12 +246,12 @@ DOUBLE PUMP FOR ALL SHOTGUNS:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;WID_Shotgun_Heavy_Athena_VR;QuickBarSlotCooldownDuration;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;WID_Shotgun_Heavy_Athena_SR;QuickBarSlotCooldownDuration;0
 
-AMMO CHANGES: (find rowname in fmodel by extracting the wid into a new tab)
+- AMMO CHANGES: (find rowname in fmodel by extracting the wid into a new tab)
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Special_BadgerGrape_Athena_SR_Ore_T03;ClipSize;20
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Special_HookGun_Athena_SR_Ore_T03;ClipSize;15
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Special_FlareGun_R_Ore_T03;ClipSize;6
 
-CHANGE WEAPON DAMAGE: (find rowname in fmodel by extracting the wid into a new tab)
+- CHANGE WEAPON DAMAGE: (find rowname in fmodel by extracting the wid into a new tab)
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_SR_Ore_T03;DmgPB;101
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_VR_Ore_T03;DmgPB;97
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_HighTier_SR_Ore_T03;DmgPB;116
@@ -267,7 +269,7 @@ CHANGE WEAPON DAMAGE: (find rowname in fmodel by extracting the wid into a new t
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_HighTier_SR_Ore_T03;DmgMaxRange;116
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_HighTier_VR_Ore_T03;DmgMaxRange;110
 
-CHANGE WEAPON ENVIRONMENT DAMAGE: (find rowname in fmodel by extracting the wid into a new tab)
+- CHANGE WEAPON ENVIRONMENT DAMAGE: (find rowname in fmodel by extracting the wid into a new tab)
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_SR_Ore_T03;EnvDmgPB;101
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_VR_Ore_T03;EnvDmgPB;97
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_HighTier_SR_Ore_T03;EnvDmgPB;116
@@ -285,7 +287,7 @@ CHANGE WEAPON ENVIRONMENT DAMAGE: (find rowname in fmodel by extracting the wid 
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_HighTier_SR_Ore_T03;EnvDmgMaxRange;116
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Sniper_Standard_Scope_Athena_HighTier_VR_Ore_T03;EnvDmgMaxRange;110
 
-DISABLE BOAT ROCKET DAMAGE: 
+- DISABLE BOAT ROCKET DAMAGE: 
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Vehicle_Meatball_Launcher_Athena_R_Ore_T03;DmgPB;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Vehicle_Meatball_Launcher_Athena_R_Ore_T03;DmgMid;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Vehicle_Meatball_Launcher_Athena_R_Ore_T03;DmgLong;0
@@ -295,7 +297,7 @@ DISABLE BOAT ROCKET DAMAGE:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Vehicle_Meatball_Launcher_Athena_R_Ore_T03;EnvDmgLong;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Vehicle_Meatball_Launcher_Athena_R_Ore_T03;EnvDmgMaxRange;0
 
-FIX DEADPOOL HAND CANNONS DAMAGE:
+- FIX DEADPOOL HAND CANNONS DAMAGE:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;DmgPB;43
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;DmgMid;36.55
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;DmgLong;32.25
@@ -309,5 +311,5 @@ FIX DEADPOOL HAND CANNONS DAMAGE:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgLong;41.25
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Donut_DualPistol_SemiAuto_Athena_SR_Ore_T03;ImpactDmgMaxRange;35.75
 
-FIX SKYE'S GRAPPLE SHOOTING DELAY:
+- FIX SKYE'S GRAPPLE SHOOTING DELAY:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Adventure_Special_HookGun_Athena_SR_Ore_T03;FiringRate;1.0
