@@ -196,10 +196,10 @@
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.WitchBroom.HorizontalLaunchMagnitude;0;8000
 
 - Modify Grenade Launcher Gravity:
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GrenadeLauncher.Projectile.Gravity;0;0.6
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GrenadeLauncher.Projectile.Gravity;0;0.4 // S19 GL
 
 - Modify Grenade Launcher Speed:
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GrenadeLauncher.Projectile.Speed;0;6000
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.GrenadeLauncher.Projectile.Speed;0;4500.0 // S19 GL
 
 - Modify Knee Sliding Maximum Speed/Velocity:
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Sliding.MaxLateralSlidingSpeed;0;400
