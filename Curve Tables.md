@@ -262,6 +262,9 @@
 - Fix Gold Cap:
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ResourceWadCap;0;10000
 
+- Fix Boom Sniper Rifle Damage on Hit:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BoomSniper.DamageOnHit;0;132
+
 # Extra
 
 - If someone can figure out how to use this to unvault an item, that would be insane.
