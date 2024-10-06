@@ -248,6 +248,9 @@
 - Modify Boogie Bomb Stack Amount: (you can also change the BoogieBomb to be basically any consumable, ie: ShockwaveGrenade, Chugsplash, etc)
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Consumables.MaxStackAmount.BoogieBomb;0;4
 
+- Modify Boom Sniper Rifle Damage on Hit:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BoomSniper.DamageOnHit;0;157
+
 - Change Turbo Build Rate:
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.TurboBuildInterval;0;0.002
 
@@ -262,8 +265,8 @@
 - Fix Gold Cap:
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.ResourceWadCap;0;10000
 
-- Fix Boom Sniper Rifle Damage on Hit:
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.BoomSniper.DamageOnHit;0;132
+- Fix S19 Lategame Storm Damage:
++CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.SafeZone.Damage;0;0
 
 # Extra
 
